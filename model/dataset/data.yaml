@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['black', 'blue', 'green', 'maroon', 'red', 'silver', 'white']
+
+roboflow:
+  workspace: neural-flow
+  project: hit-and-run-case
+  version: 13
+  license: MIT
+  url: https://universe.roboflow.com/neural-flow/hit-and-run-case/dataset/13
